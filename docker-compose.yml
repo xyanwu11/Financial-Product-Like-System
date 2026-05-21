@@ -1,0 +1,27 @@
+version: '3.8'
+
+# =============================================
+# 僅啟動 MySQL 資料庫容器
+# 後端與前端請在本機直接啟動
+#
+# 使用方式:
+#   docker-compose up -d
+#   (資料庫會自動建表並匯入初始資料)
+# =============================================
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: product-like-db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: product_like_db
+    volumes:
+      - ./DB:/docker-entrypoint-initdb.d
+      - mysql-data:/var/lib/mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+volumes:
+  mysql-data:
