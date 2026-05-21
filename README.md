@@ -1,9 +1,18 @@
 # 金融商品喜好紀錄系統
 
-## 系統技術
-- 資料庫：MySQL
-- 後端：Java 17 + Spring Boot 
-- 前端：Vue 3
+## 前端
+- Vue.js
+- Vue Router
+- Axios
+
+## 後端
+- Spring Boot
+- RESTful API
+- Maven
+
+## 資料庫
+- MySQL
+
 
 ## 啟動步驟
 
