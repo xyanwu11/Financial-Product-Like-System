@@ -1,7 +1,7 @@
 # 金融商品喜好紀錄系統
 
 ## 系統技術
-- 資料庫：MySQL (DDL、DML)
+- 資料庫：MySQL
 - 後端：Java 17 + Spring Boot 
 - 前端：Vue 3
 
