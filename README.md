@@ -2,8 +2,7 @@
 
 ## 前端
 - Vue.js
-- Vue Router
-- Axios
+
 
 ## 後端
 - Spring Boot
@@ -20,7 +19,7 @@
 ```bash
 docker-compose up -d
 ```
-或手動執行 `DB/DDL.sql` 及 `DB/DML.sql`
+或手動執行 `DB/DDL.sql`、`DB/procedure.sql` 及 `DB/DML.sql`
 
 2. 啟動後端
 ```bash
