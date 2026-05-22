@@ -1,3 +1,5 @@
+SET NAMES utf8mb4;
+
 USE product_like_db;
 
 DELIMITER //

@@ -1,3 +1,5 @@
+SET NAMES utf8mb4;
+
 USE product_like_db;
 
 INSERT INTO USERS (user_id, user_name, email, account, password, role) VALUES

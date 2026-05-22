@@ -1,4 +1,8 @@
-CREATE DATABASE IF NOT EXISTS product_like_db;
+CREATE DATABASE IF NOT EXISTS product_like_db
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+SET NAMES utf8mb4;
 
 USE product_like_db;
 
